@@ -1,6 +1,4 @@
 # Mammal-responses-logging-concessions
-Mammal responses to reduced-impact logging in Amazonian forest concessions
-
 
 Data and code to run the Bayesian Multi-species Occupancy Model (MSOM) used in the paper "Mammal responses to reduced-impact logging in Amazonian forest concessions" by Carvalho Jr et al.
 
