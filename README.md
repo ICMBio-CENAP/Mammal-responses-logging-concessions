@@ -2,20 +2,13 @@
 Mammal responses to reduced-impact logging in Amazonian forest concessions
 
 
+Data and code to run the Bayesian Multi-species Occupancy Model (MSOM) used in the paper "Mammal responses to reduced-impact logging in Amazonian forest concessions" by Carvalho Jr et al.
+
 ### Description
 
-Files for the paper "Mammal responses to reduced-impact logging in Amazonian forest concessions" by Carvalho Jr et al.
+*data_jamari* Data required for the analysis. This include camera-trap data (species detection histories) and site and sampling covariates in the format required by the analysis code. 
 
-Contains the data and codes required to run the Bayesian multi-species occupancy model:
-
-
-```data_jamari``` Data required for the analysis.
-
-```analysis_code``` Code to run the Bayesian multi-species occupancy model. 
-
-
-
-<img src="Fig2.jpg" title="Partial regressions for predictor variables and estimated site-level species richness at Jamari National Forest" width="800">
+*analysis_code* Code to run the Bayesian multi-species occupancy model. This code was adapted from a template written by Elise Zipkin and available at [zipkinlab Gihub page](https://github.com/zipkinlab/Community_model_examples-covariate_model/blob/master/covariate%20model%20code.r)
 
 
 # Contact Us
