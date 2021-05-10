@@ -4,9 +4,11 @@ Data and code to run the Bayesian Multi-species Occupancy Model (MSOM) used in t
 
 ### Description
 
-The *data_jamari* file contains the data for the analysis. This include camera-trap data (species detection histories) and site and sampling covariates in the format required by the analysis code.
+The *data_jamari.rds* file contains the data for the analysis. This include camera-trap data (species detection histories) and site and sampling covariates in the format required by the analysis code (model 1 and 2).
 
-The *analysis_code* file has the code to run the Bayesian multi-species occupancy model. This code was adapted from a template written by Elise Zipkin and available at the Github page of the [Zipkin Quantitative Ecology Lab](https://github.com/zipkinlab/Community_model_examples-covariate_model/blob/master/covariate%20model%20code.r)
+*model1.r* and *model2.r* have the R code to run the Bayesian multi-species occupancy model. Model 1 is for evaluation of site treatment (unlogged or logged), and model 2 for evaluation of logging intensity and road density effects on mammal community.
+
+Codes were adapted from a template written by Elise Zipkin and available at the Github page of the [Zipkin Quantitative Ecology Lab](https://github.com/zipkinlab/Community_model_examples-covariate_model/blob/master/covariate%20model%20code.r), with some chunks taken from supplementary material from [Yamaura et al. 2011.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2010.01922.x)
 
 
 # Contact Us
